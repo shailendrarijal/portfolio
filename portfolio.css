@@ -1,0 +1,211 @@
+.navbar{
+    background: #003893;
+}
+
+.nav-link, .navbar-brand{
+    color: #efefef;
+    cursor: pointer;
+}
+
+.nav-link{
+    margin-right: 1em !important;
+}
+
+.nav-link:hover{
+    background:#efefef;
+    color: #003893;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.navbar-toggler{
+    background: lightblue !important;
+}
+
+section{
+    box-shadow: 0 0 20px #ccc;
+}
+
+.header{
+    height: 100vh;
+    background-image: url('sunset_birds.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    left:0;
+    top:0;
+    background: rgba(244, 244, 244, 0.79);
+}
+
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+    width: 95vw;
+}
+.description h1{
+    color: #003893;
+}
+.description p{
+    color: #666;
+    font-size: 2em;
+    line-height: 1.5;
+}
+.seemore{
+    border: 1px solid #003893;
+    background: #003893;
+    color: #efefef;
+}
+.icon-box{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
+.icon-container{
+    width: 50px;
+    height: 50px;
+}
+.icon-container, .contact-item{
+    cursor: pointer;
+}
+.icon-container:hover{
+   width: 80px;
+    height: 80px;
+}
+.icon{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.about{
+    margin: 4em 0;
+    padding: 1.5em;
+    position: relative;
+}
+
+.about h1{
+    color: #003893;
+    margin: 1em;
+}
+
+.about img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.img-container{
+    height: 20em;
+}
+
+.about span{
+    display: block;
+    color: #888;
+}
+
+.about .desc{
+    padding: 2em;
+    border-left: 4px solid #10828c;
+}
+.about .desc h3{
+    color: #10828c;
+}
+
+.about .desc p{
+    line-height: 2;
+    color: #888;
+}
+
+.portfolio{
+    margin: 4em 0;
+    position: relative;
+}
+
+.card-portfolio{
+    width: 35em;
+    padding: 0.5em;
+    box-shadow: 0 0 20px #ccc;
+}
+
+.card-img-top{
+    height: 20em;
+    max-height: 20em;
+    width: 95%;
+    max-width: 100%;
+    margin: 1em;
+    border: 5px solid #333333;
+    opacity: 0.8;
+    padding: 1em;
+}
+
+.contact{
+    margin: 4em 0;
+    position: relative;
+}
+
+.contact h2, .portfolio h2{
+    color: #10828c;
+    margin: 2em;
+    
+}
+
+.contact-item{
+    width: 10em;
+    padding: 1em;
+    margin: auto;
+    box-shadow: 10px 10px 20px #ccc;
+    text-decoration: none;
+    color: #10828c;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.emailAddress{
+    margin: auto;
+}
